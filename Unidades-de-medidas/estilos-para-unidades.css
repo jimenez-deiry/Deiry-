@@ -1,0 +1,17 @@
+table{
+    border: 1px solid rgb(204, 146, 146);
+ border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(161, 232, 232);
+    text-align: center;
+}
+
+td.centrar{
+    text-align: center;
+}
+
+p{
+ font-size: 16px;
+}

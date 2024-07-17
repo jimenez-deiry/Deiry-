@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medidas</title>
+</head>
+<link rel="stylesheet" href="estilos-para-unidades.css">
+<body>
+    <h2>UNIDADES DE MEDIDA RELATIVA</h2>
+    <P>CSS tiene varias unidades diferentes para expresar una longitud. muchas de las propiedades CSS toman valores de "longitud", tales como width, margin, padding, font-size, etc. </P>
+
+    <ol>
+        <li>Longitud: Es un numero seguido de una unidad de longitud, tal como 10px, 2em, etc.
+
+            <p>Hay dos tipos de unidades de longitud: absolutas y relativas.
+            </p>
+            <ul>
+                <li>Longitudes Absolutas: Las unidades de longitud absolutas son fijas y una longitud expresada en cualquiera de estas parecerá exaxtamente como ese tamaño.
+                    <p>No se recomienda el uso de unidades de lungitud absoluta en la pantalla, por que los tamaños de pantalla varían mucho. Sin embargo, se puede utilizar si se conoce el medio de salida, como para el diseño de inpresión.</p>
+
+                    <table border="">
+                        <thead>
+                            <tr>
+                                <th>UNIDAD</th>
+                                <th>DESCRIPCIÓN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td class="centrar">cm</td>
+                            <td>centímetros</td>
+                            </tr>
+                            
+                            <tr><td class="centrar">mm</td>
+                              <td>Millimetros</td>
+                            </tr>
+
+                            <tr><td class="centrar">in</td>
+                              <td>Inches (pies) (1in = 96px = 2.54cm)</td>
+                              </tr
+                           
+                              <tr><td class="centrar">px</td>
+                             <td>Pixels (1px = 1/96th of 1in)</td></tr
+                        
+                             <tr><td class="centrar">px</td>
+                             <td>Pixels (1px = 1/96th of 1in)</td></tr
+                            
+                            <tr><td class="centrar">pt</td>
+                           <td>points (1pt = 1/72 of 1in)</td></tr
+
+                            tr><td class="centrar">pc</td>
+                           <td>picas (1pc = 12pt)</td></tr
+                         </tbody>
+                    </table>
+                    <p>Los pixeles (px) son relativos al dispositivo de visualización. para dispositivos de baja resoloución, 1 px es un píxel (punto) del dispositivo de la pantalla. para impresoras o pantallas de alta resolución, 1 px implica varios píxeles del dispositivo.</p>
+
+                </li>
+                <li>Longitudes relativas: Las unidades de longitud relativa espesifican una longitud. Las unidades de longitud relativa escalan mejor entre diferentes medios de renderizado.</li>
+            </ul>
+
+            <table border="">
+                <thead>
+                    <tr>
+                        <th>UNIDAD</th>
+                        <TH>DESCRIPCION</TH>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="centrar">em</td>
+                        <td>Unidad de medida relativa al tamaño de fuente del contenedor padre o más cercano. (2em significa 2 veces el tamaño de la fuente actual)</td>
+                    </tr>
+
+                    <tr>
+                        <td class="centrar">rem</td>
+                        <td>Unidad relativa al tamaño de fuente del elemento raíz</td>
+                    </tr>
+
+                    <tr>
+                        <td class="centrar">%</td>
+                        <td>Unidad relativa a la medida del contenedor padre</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </li>
+    </ol>
+</body>
+</html>
