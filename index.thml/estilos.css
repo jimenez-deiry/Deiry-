@@ -1,0 +1,35 @@
+*{
+    font-family: cursive;
+}
+
+body{
+
+    background-color: black;
+    color: plum;
+}
+
+p{
+    text-align: justify;
+    color: snow;
+}
+
+a {
+color: rgb(48, 189, 236);
+}
+
+li{
+    color: rgb(197, 174, 244);
+    font-style: oblique;
+}
+
+
+
+.subtitulo {
+    color: rgb(115, 215, 160);
+}
+
+#titulo {
+color: rgba(201, 179, 244, 0.925);
+text-align: center;
+font-size: 30px;
+}

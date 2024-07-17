@@ -1,0 +1,25 @@
+body{
+    color: rgb(246, 241, 241);
+    background-color: black;
+    font-family: cursive;
+}
+
+.titulo{
+    color: rgb(189, 154, 223);
+    text-align: center;
+    font-size: 30px;
+}
+
+.par{
+    color: rgb(211, 134, 175);
+    font-size: 15px;
+}
+
+.imp{
+    color: rgb(155, 210, 244);
+    font-size: 15px;
+}
+a{
+    color: rgb(129, 238, 238);
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   <h1 id="titulo">CSS: Cascaiding Style Sheets (Hojas de estilos en cascada)</h1> 
+   <p>Cascaiding, que significa que los estilos que aplicamos a los elementos de una página web se propagan a los elementos que contiene, se propageun en cascada.
+     <br><br>
+    Style, porque mediante CSS lo que hacemos es aplicar estilos visuales a los distintos elementos de nuestra página web.
+     <br><br>
+    Sheets, que significa hojas, porque los estilos de una página web se añaden en ficheros aparte, en ficheros con la extensión. css de manera general.
+     <br><br>
+    CSS ha venido evolucionando desde hace 25 años a la versión actual que es CSS3, pero su función es la misma, sirve para dar estilos visuales a las páginas web.
+   </p>
+
+   <h2 class="subtitulo">DEFINICION DE CSS3</h2>
+    <p>Una definicion mas formal de CSS sería la siguiente que aparece en Wikipedia:</p>
+
+    <p>"CSS es un lenguaje de diseño gráfico para defdinir y crear la presentacion de un documento estructurado escrito en un lenguaje demarcado. Es muy usado para establecer el diseño visual para el documento web en interface de usuarios escritas en HTML.</p>
+
+    <p>En la propia definición de CSS vempos a que está muy ligado desde su nacimiento a HTML. Desde que nació, el objetivo de CSS fue poner un poco de orden a la hora de aplicar los estilos a las páginas web.</p>
+   <a href="https://www.w3schools.com/css/css_syntax.asp">Ver: https://www.w3schools.com/css/css_syntax.asp</a>
+
+   <h2 class="subtitulo">ESTRUCTURA BÁSICA DE UN SELECTOR O REGLA CSS:</h2>
+   <P>Primero hay un selector</P>
+   <p>
+       <code>
+        selector{<br>
+            propiedad1:valor;<br>
+            propiedad2:valor;<br>
+            propiedad3:valor;<br>
+            propiedad4:valor;<br>
+            } <br>
+         </code>
+     </p>
+     <h2 class="subtitulo" id="selectores">Selectores CSS</h2>
+     <p>Un selector de CSS selecciona los elementos HTML a los que desea aplicar estilo.</p>
+     <p>Los selectores CSS se utilizan para "buscar" (o seleccionar) los elementos HTML a los que desean aplicar estilo.</p>
+     <p>Podemos dividir los selectores CSS en cinco categorías:
+        <ol>
+            <li><a href="#universal">Selector universar</a></li>
+            <li><a href="#etiqueta">Selector por etiqueta</a></li>
+            <li> <a href="#clase">Selector por clase</a></li>
+            <li> <a href="#id">Selector por id</a></li>
+         </ol>
+        </p>
+        <h3 id="universal">1. Selector universar de CSS</h3>
+        <p>EL selector universal (*) selecciona todos los elementos HTML de la página.
+            <br><br>Ejemplo: la siguiente regla CSS afectará a todos los elementos HTML de la página:
+            <br>
+            <code>
+                *{ <br>
+                    text-align:  center; <br>
+                    color: blue; <br>
+                } <br>
+            </code>
+        </p>
+        <a href="#selectores">volver</a>
+
+        <h3 id="etiqueta">2. Selector CSS por "etiqueta" HTML</h3>
+        <P>El selector por etiqueta selecciona elementos HTML según el nombre del elemento. 
+            <br><br>Ejemplo: Aquí, todos los elementos < p> de la página estarán alineados al centro, con un color de texto rojo: <br>
+            <code>
+                p { <br>
+                    text-align: center; <br>
+                    color: red; <br>
+                } <br>
+            </code>
+        </P>
+        <a href="#selectores">volver</a>
+
+        <h3 id="clase">3. Selectores CSS por "clase" HTML</h3>
+        <p>El selector de clases selecciona elementos HTML con un atributo de clase específico. 
+            <br><br>Para seleccionar elementos con una clase específica, escriba un carácter de punto (.), seguido del nombre de la clase.
+            
+            <br><br>Ejemplo: En este Ejemplo, todos los elementos HTML con class="center" serán rojos y estarán alineados en el centro: <br>
+            <code>
+                .center {<br>
+                    text-align: center; <br>
+                    color: red; <br>
+                } <br> <br> <br>
+            </code>
+        </p>
+        <a href="#selectores">volver</a>
+
+        <h3 id="id">4. Selector por "id" HTML  </h3>
+        <p>El selector de identificación utiliza el atributo de identificación de un elemento HTML para seleccionar un elemento específico.
+        <br> <br>
+        la identificación de un elemento es única dentro de la página, por lo que el selector de identificación se usa paqra seleccionar un elemento único.
+        <br><br>
+        Para seleccionar un elemento con una identificación específica, escriba un carácter almohadilla (#), seguido de la identificación del elemento.
+        <br><br>
+        Ejemplo: Aquí, todos los elementos < p > de la página estarán alineados al centro, con un color de texto verde:
+        <br>
+       <code>
+        tecto1{ <br>
+            text-align: center; <br>
+            color: green; <br>
+        } <br>
+       </code>
+    </p>
+    <a href="#selectores">volver</a>
+
+     
+
+</body>
+</html>
